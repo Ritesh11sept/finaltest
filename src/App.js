@@ -1,31 +1,30 @@
 import logo from "./logo.svg";
 import "./App.css";
-// import sidebar from "./Components/sidebar/sidebar";
-// import home from "./Components/home/home";
-// import mission from "./Components/mission/mission";
-// import services from "./Components/services/services";
-// import resume from "./Components/resume/resume";
-// import portfolio from "./Components/portfolio/portfolio";
-// import pricing from "./Components/pricing/pricing";
-// import testimonials from "./Components/testimonials/testimonials";
-// import blog from "./Components/blog/blog";
-// import contact from "./Components/contact/contact";
+import Sidebar from "./Components/Sidebar/Sidebar";
+import Home from "./Components/Home/Home";
+import About from "./Components/about/About";
+import Services from "./Components/Services/Services";
+import Resume from "./Components/Resume/Resume";
+import Portfolio from "./Components/Portfolio/Portfolio";
+import Pricing from "./Components/Pricing/Pricing";
+import Testimonials from "./Components/Testimonials/Testimonials";
+import Blog from "./Components/Blog/Blog";
+import Contact from "./Components/Contact/Contact";
 
-import home from "./Components/home/home";
 const App = () => {
   return (
     <>
-      <sidebar />
+      <Sidebar />
       <main className="main">
-        <home />
-        <mission />
-        <services />
-        <resume />
-        <portfolio />
-        <pricing />
-        <testimonials />
-        <blog />
-        <contact />
+        <Home />
+        <About />
+        <Services />
+        <Resume />
+        <Portfolio />
+        <Pricing />
+        <Testimonials />
+        <Blog />
+        <Contact />
       </main>
     </>
   );
