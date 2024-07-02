@@ -1,37 +1,37 @@
 import React from "react";
 import "./Services.css";
-import DS from "../../assests/dsf.avif";
-import Debating from "../../assests/debatingf.avif";
-import chess from "../../assests/chessfinal.avif";
+import DS from "../../assests/wt1.jpeg";
+import Debating from "../../assests/wt2.avif";
+import chess from "../../assests/wt3.avif";
 
 const data = [
   {
     id: 1,
     image: DS,
-    title: "Data Science",
+    title: "24/7 Accessibility",
     description:
-      "My fascination with data science drives me to uncover insights from data, utilizing analytical techniques to solve complex problems and make data-driven decisions. I am passionate about leveraging machine learning and statistical methods to interpret data trends and patterns. Through various projects and research, I continuously strive to expand my knowledge and expertise in this ever-evolving field.",
+      " TherapAI is available around the clock, offering support whenever you need it. Unlike traditional therapy sessions that require scheduling and travel, TherapAI can be accessed anytime and anywhere, providing immediate assistance in moments of need. This constant availability ensures that you always have a companion to turn to, whether it’s during a late-night anxiety episode or a stressful workday.",
   },
   {
     id: 2,
     image: Debating,
-    title: "Public Speaking and Debating",
+    title: "Complementary to Offline Therapy",
     description:
-      "I enjoy engaging with diverse audiences through public speaking, honing my communication skills, and sharing ideas effectively. Participating in Model United Nations (MUN) conferences has enhanced my ability to debate, negotiate, and articulate my thoughts clearly. These experiences have not only boosted my confidence but also broadened my understanding of global issues.",
+      "While TherapAI is not a replacement for offline therapy, it serves as a valuable addition to your mental health care. It bridges the gaps between therapy sessions, helping you apply the coping strategies and techniques discussed with your therapist in real-time. This continuity of care enhances the overall effectiveness of your mental health treatment, ensuring consistent support and progress.",
   },
   {
     id: 3,
     image: chess,
-    title: "Chess",
+    title: "Non-Judgmental and Confidential",
     description:
-      "Playing chess sharpens my strategic thinking and problem-solving abilities, providing a stimulating mental challenge. I relish the process of anticipating my opponent's moves and devising complex strategies to outmaneuver them. Chess has taught me patience, foresight, and the importance of learning from every game, win or lose.",
+      " One of the key benefits of TherapAI is its non-judgmental nature. You can share your thoughts and feelings openly without fear of stigma or judgment. Additionally, TherapAI ensures that your conversations are confidential and secure, protecting your privacy while you seek help and guidance.",
   },
 ];
 
 const Services = () => {
   return (
     <section className="services container section" id="services">
-      <h2 className="section__title">Hobbies</h2>
+      <h2 className="section__title">Why TherapAI?</h2>
 
       <div className="services__container grid">
         {data.map(({ id, image, title, description }) => {

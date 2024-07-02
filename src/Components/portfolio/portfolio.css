@@ -26,7 +26,7 @@
 }
 
 .work__mask {
-  background: #6c6ce5;
+  background: rgb(88, 234, 245);
   position: absolute;
   left: 0;
   top: 0;
@@ -48,7 +48,7 @@
   position: absolute;
   top: 0;
   left: 1.5rem;
-  font-size: var(--small-font-size);
+  font-size: var(--bold-font-size);
   display: inline-block;
   padding: 0.19rem 0.625rem;
   transform: translateY(-40px);
@@ -56,7 +56,7 @@
 }
 
 .work__title {
-  color: #fff;
+  color: #000;
   font-size: var(--h3-font-size);
   margin: 0 0 0 0.98rem;
   padding: 0 1.25rem;

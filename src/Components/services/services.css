@@ -35,18 +35,18 @@
 }
 
 .services__card:nth-child(1) {
-  background-color: rgb(108, 108, 229);
-  box-shadow: 0px 5px 20px 0px rgba(108, 108, 229, 0.5);
+  background-color: rgb(255, 110, 197);
+  box-shadow: 0px 5px 20px 0px rgba(255, 110, 197);
 }
 
 .services__card:nth-child(2) {
-  background-color: rgb(243, 70, 174);
-  box-shadow: 0px 5px 20px 0px rgba(249, 108, 229, 0.5);
+  background-color: rgb(80, 233, 244);
+  box-shadow: 0px 5px 20px 0px rgba(80, 233, 244);
 }
 
 .services__card:nth-child(3) {
-  background-color: rgb(249, 215, 76);
-  box-shadow: 0px 5px 20px 0px rgba(249, 215, 76, 0.5);
+  background-color: rgb(255, 110, 197);
+  box-shadow: 0px 5px 20px 0px rgba(255, 110, 197);
 }
 
 .services__title {
@@ -58,9 +58,9 @@
 }
 
 .services_card:nth-child(2) .services_title {
-  color: var(--title-color);
+  color: rgb(7, 7, 7);
 }
 
 .services_card:nth-child(2) .services_description {
-  color: var(--text-color);
+  color: rgb(7, 7, 7);
 }

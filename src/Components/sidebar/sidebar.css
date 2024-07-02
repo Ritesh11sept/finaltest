@@ -25,7 +25,7 @@
   transition: 0.3s;
 }
 .nav__link:hover {
-  color: hsl(43, 100%, 68%);
+  color: rgb(80, 233, 244);
 }
 .copyrigth {
   color: hsl(245, 15%, 65%);

@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import Image from "../../assests/avatar-2.svg";
+import Image from "../../assests/about.png";
 import AboutBox from "./AboutBox";
 
 const About = () => {
@@ -14,55 +14,20 @@ const About = () => {
           <div className="about__info">
             <p className="about__description">
               {" "}
-              Hello! I'm Ritesh, currently pursuing a B.Tech in Computer Science
-              and Engineering with a specialization in Business Systems from VIT
-              Vellore. My academic journey has fueled my passion for Python,
-              LangChain, Generative AI, and Data Science. I am excited to
-              explore the endless possibilities these fields offer and am
-              dedicated to leveraging technology to solve real-world problems.
-              Welcome to my portfolio!,
+              Welcome to TherapAI, your dedicated companion for mental
+              well-being. TherapAI is a free-to-use AI tool designed to support
+              your mental health journey. While it is not a substitute for
+              offline therapy, it serves as a valuable addition to your mental
+              health toolkit. TherapAI helps in the prognosis and diagnosis of
+              mental health ailments, offering insights and guidance tailored to
+              your needs. Think of TherapAI as a friendly buddy you can talk to
+              anytime, providing a listening ear and helpful advice whenever you
+              need it. Your mental wellness is our priority, and we're here to
+              walk this path with you.
             </p>
             <a href="" className="btn">
-              Download CV
+              Get Documentation
             </a>
-          </div>
-          <div className="about__skills grid">
-            <div className="skills__data">
-              <div className="skills__titles">
-                <h3 className="skills__name"> Development</h3>
-                <span className="skills__number">70%</span>
-              </div>
-
-              <div className="skills__bar">
-                <span className="skills__percentage development"></span>
-              </div>
-            </div>
-          </div>
-
-          <div className="about__skills grid">
-            <div className="skills__data">
-              <div className="skills__titles">
-                <h3 className="skills__name">Data Science and Analytics </h3>
-                <span className="skills__number">80%</span>
-              </div>
-
-              <div className="skills__bar">
-                <span className="skills__percentage Data__Science"></span>
-              </div>
-            </div>
-          </div>
-
-          <div className="about__skills grid">
-            <div className="skills__data">
-              <div className="skills__titles">
-                <h3 className="skills__name">LangChain and Generative AI</h3>
-                <span className="skills__number"> 60%</span>
-              </div>
-
-              <div className="skills__bar">
-                <span className="skills__percentage langchain"></span>
-              </div>
-            </div>
           </div>
         </div>
       </div>

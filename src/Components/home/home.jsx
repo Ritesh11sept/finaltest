@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Me from "../../assests/avatar-1.svg";
-import HeaderSocial from "./HeaderSocial";
+
 import ScrollDown from "./ScrollDown";
 import Shapes from "./Shapes";
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
         <span className="home__education">
           Find Support, Guidance and a Listening Ear
         </span>
-        <HeaderSocial />
+
         <a href="#contact" className="btn">
           Get Started
         </a>

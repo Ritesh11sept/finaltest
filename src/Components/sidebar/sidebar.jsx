@@ -19,25 +19,13 @@ const Sidebar = () => {
 
           <li className="nav__item">
             <a href="#about" className="nav__link">
-              <i className="icon-user-following"></i>
-            </a>
-          </li>
-
-          <li className="nav__item">
-            <a href="#services" className="nav__link">
-              <i className="icon-briefcase"></i>
-            </a>
-          </li>
-
-          <li className="nav__item">
-            <a href="#resume" className="nav__link">
-              <i className="icon-graduation"></i>
+              <i className="icon-emotsmile"></i>
             </a>
           </li>
 
           <li className="nav__item">
             <a href="#portfolio" className="nav__link">
-              <i className="icon-layers"></i>
+              <i className="icon-trophy"></i>
             </a>
           </li>
 

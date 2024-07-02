@@ -1,8 +1,8 @@
 import React from "react";
 import "./Blog.css";
-import Image1 from "../../assests/blog-1.svg";
-import Image2 from "../../assests/blog-2.svg";
-import Image3 from "../../assests/blog-3.svg";
+import Image1 from "../../assests/ar1.avif";
+import Image2 from "../../assests/ar2.jpeg";
+import Image3 from "../../assests/ar3.jpeg";
 
 const Blog = () => {
   return (
@@ -11,11 +11,11 @@ const Blog = () => {
       <div className="blog__container grid">
         <div className="blog__card">
           <div className="blog__thumb">
-            <a href="#">
+            <a href="">
               {" "}
               <span className="blog__category">Reviews</span>
             </a>
-            <a href="#">
+            <a href="https://www.verywellmind.com/best-mental-health-books-4799301">
               <img src={Image1} alt="" className="blog__img" />
             </a>
           </div>
@@ -35,7 +35,7 @@ const Blog = () => {
               {" "}
               <span className="blog__category">Tutorial</span>
             </a>
-            <a href="#">
+            <a href="https://dana.org/article/can-social-prescriptions-improve-cognitive-and-mental-health/">
               <img src={Image2} alt="" className="blog__img" />
             </a>
           </div>
@@ -57,7 +57,7 @@ const Blog = () => {
               {" "}
               <span className="blog__category">Personal Stories</span>
             </a>
-            <a href="">
+            <a href="https://www.blackdoginstitute.org.au/resources-support/personal-stories/">
               <img src={Image3} alt="" className="blog__img" />
             </a>
           </div>

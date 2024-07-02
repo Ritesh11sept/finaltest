@@ -13,18 +13,18 @@ const data = [
   {
     id: 1,
     image: Image1,
-    title: "John Doe",
-    subtitle: "Product designer at Dribble",
+    title: "Anitej Sood",
+    subtitle: "VIT Vellore",
     comment:
-      "I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍",
+      "TherapAI has been a game-changer for me. The 24/7 accessibility means I can get support whenever I need it, especially during those late-night anxiety attacks. It feels like I always have someone to talk to, and that's incredibly comforting.",
   },
   {
     id: 2,
     image: Image3,
-    title: "John Doe",
-    subtitle: "Product designer at Dribble",
+    title: "Karan Mukherjee",
+    subtitle: "IIM Ahemdabad",
     comment:
-      "I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍",
+      "TherapAI helped me address unresolved childhood experiences that were impacting my ability to form secure attachments in adult relationships. Through this process, I gained valuable tools for building healthy and fulfilling connections.",
   },
 ];
 
