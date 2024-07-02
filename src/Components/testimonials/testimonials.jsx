@@ -3,9 +3,9 @@ import "./Testimonials.css";
 import Image1 from "../../assests/avatar-1.svg";
 import Image3 from "../../assests/avatar-3.svg";
 
-import { Pagination } from "swiper";
+// import kro swipercore&rqd modules
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import { Pagination } from "swiper/modules"; // import krte hain pagnation module
 import "swiper/css";
 import "swiper/css/pagination";
 
@@ -16,7 +16,7 @@ const data = [
     title: "John Doe",
     subtitle: "Product designer at Dribble",
     comment:
-      "I enjoy working with the theme and learn so much. You       guys make the process fun and interesting. Good luck! 👍",
+      "I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍",
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const data = [
     title: "John Doe",
     subtitle: "Product designer at Dribble",
     comment:
-      "I enjoy working with the theme and learn so much. You       guys make the process fun and interesting. Good luck! 👍",
+      "I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍",
   },
 ];
 
@@ -33,21 +33,19 @@ const Testimonials = () => {
     <section className="testimonials container section">
       <h2 className="section__title">Clients & Reviews</h2>
       <Swiper
-      /*
-      need review
-      className="testimonials__container grid"
-        modules={[Pagination]}
+        className="testimonials__container"
         spaceBetween={30}
         slidesPerView={1}
         loop={true}
         grabCursor={true}
-        pagination={{ clickable: true }}*/
+        pagination={{ clickable: true }}
+        modules={[Pagination]}
       >
         {data.map(({ id, image, title, subtitle, comment }) => {
           return (
-            <SwiperSlide className="testimonials__items" key={id}>
+            <SwiperSlide className="testimonials__item" key={id}>
               <div className="thumb">
-                <img src={image} alt="" />
+                <img src={image} alt={title} />
               </div>
               <h3 className="testimonials__title">{title}</h3>
               <span className="subtitle">{subtitle}</span>
