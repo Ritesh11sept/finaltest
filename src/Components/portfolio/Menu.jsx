@@ -1,49 +1,56 @@
-import Work1 from "../../assests/work-1.svg";
-import Work2 from "../../assests/work-2.svg";
-import Work3 from "../../assests/work-3.svg";
-import Work4 from "../../assests/work-4.svg";
-import Work5 from "../../assests/work-5.svg";
-import Work6 from "../../assests/work-6.svg";
+import Work1 from "../../assests/cali.avif";
+import Work2 from "../../assests/book1.jpeg";
+import Work3 from "../../assests/music1.avif";
+import Work4 from "../../assests/y2.avif";
+import Work5 from "../../assests/fo2.avif";
+import Work6 from "../../assests/test1.jpeg";
 
 const Menu = [
   {
     id: 1,
     image: Work1,
-    title: "Project Management Illustration",
-    category: "Design",
+    title: "Mindful movement through calisthenics.",
+    category: "Exercise",
+    link: "https://www.youtube.com/@MinusTheGym",
   },
   {
     id: 2,
     image: Work2,
-    title: "Guest App Walkthrough Screens",
-    category: "Art",
+    title: "Feeling Good: The New Mood Therapy by David D. Burns",
+    category: "Books",
+    link: "https://www.goodreads.com/book/show/46674.Feeling_Good",
   },
   {
     id: 3,
     image: Work3,
-    title: "Delivery App Wireframe",
-    category: "Branding",
+    title: "Music to lift your mood",
+    category: "Music",
+    link: "https://open.spotify.com/playlist/1WAQIk6Vkbc9MDlmul0wuk",
   },
   ,
   {
     id: 4,
     image: Work4,
-    title: "Onboarding Motivation",
-    category: "Design",
+    title: "Flow into tranquility with yoga.",
+    category: "Exercise",
+    link: "https://www.youtube.com/@alomoves",
   },
   ,
   {
     id: 5,
     image: Work5,
-    title: "iMac Mockup Design",
-    category: "Creative",
+    title: "Recipes for a Soulfull meal",
+    category: "Healthy Eating",
+    link: "https://www.olivemagazine.com/guides/20-mood-boosting-recipes/",
   },
   ,
   {
     id: 6,
     image: Work6,
-    title: "Game Store App Concept",
-    category: "Art",
+    title:
+      "The Highly Sensitive Person: How to Thrive When the World Overwhelms You by Elaine N. Aron",
+    category: "Books",
+    link: "https://www.goodreads.com/book/show/923950.The_Highly_Sensitive_Person",
   },
 ];
 

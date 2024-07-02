@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Me from "../../assests/avatar-1.svg";
-
+import Looper from "./Looper";
 import ScrollDown from "./ScrollDown";
 import Shapes from "./Shapes";
 const Home = () => {
@@ -20,6 +20,7 @@ const Home = () => {
         <ScrollDown />
       </div>
       <Shapes />
+      <Looper />
     </section>
   );
 };
